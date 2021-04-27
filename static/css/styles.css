@@ -77,6 +77,13 @@ nav ul li a:hover
     background-color: #1D5664;
 }
 
+.page-three
+{
+    width: 100%;
+    height: 50%;
+    background-color: #96344E;
+}
+
 .description
 {
     position: absolute;
@@ -121,12 +128,6 @@ nav ul li a:hover
     {
         transform: rotate(360deg);
     }    
-}
-
-.scroll-button
-{
-    text-decoration: none;
-    opacity: 0.2;
 }
 
 .scroll-down
@@ -230,14 +231,51 @@ nav ul li a:hover
 
 .image-one-description
 {
-    font-family: 'Lora', sans-serif;
+    font-family: 'Dosis', sans-serif;
     position: absolute;
     font-size: 30px;
-    color: bisque;
+    color: white;
     display: flex;
     left: 175px;
     padding-top: 530px;
 }
+
+.image-two-description
+{
+    padding-top: 485px;
+    font-family: 'Dosis';
+    font-size: 30px;
+    color: white;
+    margin-left: 1100px;
+}
+
+.image-three-description
+{
+    position: absolute;
+    padding-top: 945px;
+    left: 685px;
+    color: white;
+    font-family: 'Dosis';
+    font-size: 30px;
+}
+
+.firefly
+{
+    position: absolute;
+    width: 398px;
+    height: 394px;
+    padding-top: 557px;
+    left: 520px;
+}
+
+.projects
+{
+    position: absolute;
+    left:47%;
+    padding-top: 1%;
+    font-size: 45px;
+}
+
 
 @media only screen and (max-width:700px)
 {
@@ -280,7 +318,7 @@ nav ul li a:hover
     }
     .scroll-down
     {
-        bottom: 30px;
+        bottom: 15px;
         left: 50%;
     }
     .page-one
@@ -308,7 +346,7 @@ nav ul li a:hover
     }
     .image-one-description
     {
-        font-size: 15px;
+        font-size: 20px;
         font-family: 'Dosis', sans-serif;
         padding-top: 370px;
         left:145px;
@@ -326,5 +364,49 @@ nav ul li a:hover
         height: 52px;
         left:280px;
         padding-top: 425px;
+    }
+    .page-two
+    {
+        height: 110%;
+    }
+    .image-two-description
+    {
+        padding-top: 665px;
+        font-family: 'Dosis';
+        font-size: 20px;
+        color: white;
+        margin-left: 150px;
+    }
+    .firefly
+    {
+        width:  284px;
+        height: 280px;
+        position: absolute;
+        padding-top: 776px;
+        left:45px;
+    }
+    .page-three
+    {
+        height: 30%;
+    }
+    .image-three-description
+    {
+        padding-top: 1040px;
+        left: 160px;
+        font-size: 20px;
+        color: black;
+    }
+    .page-two
+    {
+        background-color: #f07bbb;
+    }
+    .page-three
+    {
+        background-color: aquamarine;
+    }
+    .projects
+    {
+        font-size: 25px;
+        left: 44%;
     }
 }
