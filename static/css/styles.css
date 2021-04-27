@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+body
+{
+    margin: 0;
+}
+
+h1
+{
+    margin: 0;
+    font-family: 'Dosis', sans-serif;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.trademark
+{
+    position: absolute;
+    font-size: 35px;
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    width: 230px;
+    padding-top: 20px;
+    height: 40px;
+    margin-left: 100px;
+}
+.My-Works
+{
+    position: absolute;
+    padding-top: 20px;
+    font-size: 30px;
+    font-family: 'Dosis', sans-serif;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    margin-left: 903px;
+}
+
+.about
+{
+    position: absolute;
+    padding-top: 20px;
+    font-size: 30px;
+    font-family: 'Dosis', sans-serif;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    margin-left: 1022px;
+}
+
+.contact
+{
+    position: absolute;
+    padding-top: 20px;
+    font-size: 30px;
+    font-family: 'Dosis', sans-serif;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    margin-left: 1170px;
+}
+
+.nav-bar
+{
+    height: 80px;
+    width: 1520px;
+    background-color: #2B9168;
+}
+
+.page-one
+{
+    height: 100%;
+    width: 100%;
+    background-color: #0DC67C;
+}
+
+.description
+{
+    position: absolute;
+    padding-top: 45px;
+    font-size: 55px;
+    font-family: 'Lora', serif;
+    color: #fff;
+    width: 304px;
+    height: 237px;
+    margin-left: 100px;
+}
+
+.explore
+{
+    padding-top: 545px;
+    font-size: 45px;
+    font-family: 'Lora', serif;
+    color: black;
+    width: 850px;
+    height: 68px;
+    margin: auto;
+    text-align: center;
+}
+
+.shapes
+{
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    margin-left: 800px;
+    margin-top: 100px;
+}
+
+.shapes:hover
+{
+    animation: spin 1.5s linear infinite;
+}
+
+@keyframes spin
+{
+    100%
+    {
+        transform: rotate(360deg);
+    }    
+}
+
+.scroll-button
+{
+    text-decoration: none;
+    opacity: 0.2;
+}
+
+.scroll-down
+{
+    height: 50px;
+    width: 30px;
+    border: 2px solid black;
+    position: absolute;
+    left: 50%;
+    bottom: -50px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.scroll-down::before,
+.scroll-down::after
+{
+    content: '';
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    border: 2px solid black;
+    height: 10px;
+    width: 10px;
+    transform: translate(-50%, -100%) rotate(45deg);
+    border-top: transparent;
+    border-left: transparent;
+    animation: scroll-down 1s ease-in-out infinite;
+}
+
+.scroll-down::after
+{
+    top: 30%;
+    animation-delay: .3s;
+}
+@keyframes scroll-down
+{
+    0% {
+        opacity:0;
+    }
+    30%
+    {
+        opacity: 1;
+    }
+    60%
+    {
+        opacity: 1;
+    }
+    100%
+    {
+        opacity: 0;
+        top: 90%;
+    }
+}
+
+.shapes-bar
+{
+    position: absolute;
+    width: 652px;
+    height: 156px;
+    right: 10px;
+}
