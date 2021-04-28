@@ -25,10 +25,10 @@ a
 .trademark
 {
     text-decoration: none;
-    font-size: 30px;
+    font-size: 2rem;
     flex: 1;
     color: white;
-    margin-left: 30px;
+    margin-left: 6%;
 }
 nav
 {
@@ -39,14 +39,14 @@ nav ul li
 {
     list-style: none;
     display: inline-block;
-    margin-right: 30px;
+    margin-right: 6%;
 }
 
 nav ul li a
 {
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 1.5rem;
 }
 
 nav ul li a:hover
@@ -57,8 +57,8 @@ nav ul li a:hover
 
 .nav-bar
 {
-    height: 80px;
-    width: 1520px;
+    height:10%;
+    width: 100%;
     background-color: #2B9168;
 }
 
@@ -87,25 +87,26 @@ nav ul li a:hover
 .description
 {
     position: absolute;
-    padding-top: 45px;
-    font-size: 55px;
+    padding-top: 5%;
+    font-size: 3.5rem;
     font-family: 'Lora', serif;
     color: #fff;
-    width: 304px;
-    height: 237px;
-    margin-left: 100px;
+    width: 20%;
+    height: 15%;
+    margin-left: 6%;
 }
 
 .explore
 {
-    padding-top: 545px;
-    font-size: 45px;
+    position: absolute;
+    padding-top: 32%;
+    font-size: 2.5rem;
     font-family: 'Lora', serif;
-    color: black;
-    width: 850px;
-    height: 68px;
-    margin: auto;
-    text-align: center;
+    color: #fff;
+    max-width: 55%;
+    max-height: 15%;
+    bottom: 3%;
+    margin-left: 35%;
 }
 
 .shapes
@@ -113,8 +114,8 @@ nav ul li a:hover
     position: absolute;
     width: 40%;
     height: 40%;
-    margin-left: 800px;
-    margin-top: 100px;
+    margin-left: 52%;
+    margin-top: 6%;
 }
 
 .shapes:hover
@@ -137,7 +138,7 @@ nav ul li a:hover
     border: 2px solid black;
     position: absolute;
     left: 50%;
-    bottom: -50px;
+    bottom: 0;
     border-radius: 50px;
     cursor: pointer;
 }
@@ -186,25 +187,25 @@ nav ul li a:hover
 .shape-bar
 {
     position: absolute;
-    width: 326px;
-    height: 78px;
-    bottom: -15%;
-    left: 75%;
+    max-width: 21%;
+    max-height: 10%;
+    bottom: -13%;
+    left: 79%;
 }
 
 .circle
 {
     position: absolute;
-    width: 156px;
-    height: 150px;
+    max-width: 20%;
+    max-height: 20%;
     padding-top: 10px;
 }
 
 .hotel
 {
     position: absolute;
-    width: 330px;
-    height: 458px;
+    max-width: 42%;
+    max-height: 60%;
     left: 5%;
     padding-top: 90px;
     object-fit: contain;
@@ -213,37 +214,38 @@ nav ul li a:hover
 .triangle
 {
     position: absolute;
-    width: 165px;
-    height: 103px;
-    padding-top: 106px;
-    left: 1320px;
+    max-width: 20%;
+    max-height: 12%;
+    padding-top: 7%;
+    left: 80%;
 }
 
 .hand
 {
     position: absolute;
-    width: 507px;
-    height: 317px;
-    left: 871px;
-    padding-top: 170px;
+    max-width: 44%;
+    max-height: 26.6%;
+    left: 62%;
+    padding-top: 11%;
     object-fit: contain;
 }
 
 .image-one-description
 {
-    font-family: 'Dosis', sans-serif;
+    display: none;
     position: absolute;
-    font-size: 30px;
-    color: white;
-    display: flex;
-    left: 175px;
-    padding-top: 530px;
+    padding-top: 35%;
+    font-size: 2rem;
+    color: #fff;
+    max-width: 55%;
+    max-height: 15%;
+    margin-left: 11.5%;
 }
 
 .image-two-description
 {
+    display: none;
     padding-top: 485px;
-    font-family: 'Dosis';
     font-size: 30px;
     color: white;
     margin-left: 1100px;
@@ -251,6 +253,7 @@ nav ul li a:hover
 
 .image-three-description
 {
+    display: none;
     position: absolute;
     padding-top: 945px;
     left: 685px;
@@ -262,10 +265,10 @@ nav ul li a:hover
 .firefly
 {
     position: absolute;
-    width: 398px;
-    height: 394px;
-    padding-top: 557px;
-    left: 520px;
+    max-width: 22%;
+    max-height: 42%;
+    padding-top: 42%;
+    left: 35%;
 }
 
 .projects
@@ -306,9 +309,13 @@ nav ul li a:hover
     }
     .explore
     {
-        padding-top: 500px;
-        font-size: 30px;
-        width: 250px;
+        padding-top: 58%;
+        font-size: 2rem;
+        max-height: 15%;
+        max-width: 67%;
+        margin-left: 20%;
+        bottom: 6%;
+        text-align: center;
     }
     .shapes
     {
@@ -339,51 +346,50 @@ nav ul li a:hover
     }
     .hotel
     {
-        width: 265px;
-        height: 329px;
-        padding-top: 45px;
+        /* width: 265px;
+        height: 329px; */
+        padding-top: 15%;
         padding-left: 20px;
     }
     .image-one-description
     {
-        font-size: 20px;
-        font-family: 'Dosis', sans-serif;
-        padding-top: 370px;
-        left:145px;
+        display: block;
+        font-size: 1.5rem;
+        font-family: 'Dosis';
+        padding-top: 70%;
+        left:11%;
     }
     .hand
     {
-        left:10px;
-        width: 354px;
-        height: 259px;
-        padding-top: 440px;
+        left:18%;
+
+        padding-top: 100%;
     }
     .triangle
     {
-        width: 83px;
-        height: 52px;
-        left:280px;
-        padding-top: 425px;
+        left: 70%;
+        padding-top: 92%;
     }
     .page-two
     {
-        height: 110%;
+        height: 100%;
     }
     .image-two-description
     {
-        padding-top: 665px;
-        font-family: 'Dosis';
-        font-size: 20px;
+        display: block;
+        padding-top: 260%;
+        font-family: 'Dosis', sans-serif;
+        font-size: 1.5rem;
         color: white;
         margin-left: 150px;
     }
     .firefly
     {
-        width:  284px;
-        height: 280px;
+        max-height: 96%;
+        max-width: 56%;
         position: absolute;
-        padding-top: 776px;
-        left:45px;
+        padding-top: 195%;
+        left:22%;
     }
     .page-three
     {
